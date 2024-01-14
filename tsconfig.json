@@ -1,0 +1,31 @@
+{
+  "include": [ "**/*.ts", "**/*.tsx"],
+    "exclude": ["public/build/**/*"],
+  "compilerOptions": {
+    "plugins": [
+      {
+      }
+    ],
+  	"lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+      "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+	"target": "ES2022",
+    "strict": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths": {
+      "~/*": ["./app/*"],
+      "@/*": ["./app/@/*"],
+      "~zd-machines/*": ["./src/*"]
+    },
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}

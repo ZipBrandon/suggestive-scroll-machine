@@ -1,0 +1,32 @@
+{
+  "name": "zipdeal-machines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZipBrandon",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/media-utils": "^4.0.84",
+    "@remotion/player": "^4.0.84",
+    "typescript": "^5.3.3",
+    "webvtt-parser": "^2.2.0",
+    "date-fns": "^3.2.0",
+    "xstate": "^5.5.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.2",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1",
+    "tsx": "^4.7.0"
+  }
+}
